@@ -1,10 +1,16 @@
 public class Main {
   public static void main(String[] args) {
+    /*
+    
     System.out.println("Hello World");
     System.out.println("I'm learning java!");
     System.out.println("It's going to be a long journey.");
     System.out.println(123);
     System.out.println(1+2);
+
+    */
+
+    /*
 
     // Testing variables
     String name = "John";
@@ -19,7 +25,11 @@ public class Main {
     System.out.println(myLetter);
     boolean myBool = true;
     System.out.println(myBool);
+
+    */
     
+    /*
+
     // Printing variables
     System.out.println("My name is " + name);
     System.out.println("My number is " + myNum);
@@ -32,5 +42,22 @@ public class Main {
     int w, z;
     w = z = 10;
     System.out.println("The value of w is " + w);
+
+    */
+    
+
+    // Type Casting
+    // Widening Casting
+    int myInt = 9;
+    double myDouble = myInt;
+    System.out.println(myInt);
+    System.out.println(myDouble);
+
+    //Narrowing Casting
+    double narrowDouble = 9.78d;
+    int narrowInt = (int) narrowDouble;
+    System.out.println(narrowDouble);
+    System.out.println(narrowInt);
+
   }
 }
