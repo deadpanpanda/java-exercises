@@ -46,6 +46,8 @@ public class Main {
     */
     
 
+    /*
+
     // Type Casting
     // Widening Casting
     int myInt = 9;
@@ -58,6 +60,24 @@ public class Main {
     int narrowInt = (int) narrowDouble;
     System.out.println(narrowDouble);
     System.out.println(narrowInt);
+    
+    */
 
+
+
+    // Operators
+    int x = 100 + 50;
+    System.out.println(x);
+
+    int sum1 = 100 + 50;
+    int sum2 = sum1 + 250;
+    int sum3 = sum1 + sum2;
+    System.out.println(sum1);
+    System.out.println(sum2);
+    System.out.println(sum3);
+
+    x += 50;
+    System.out.println(x);
+    
   }
 }
